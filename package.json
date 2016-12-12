@@ -1,0 +1,22 @@
+{
+  "name": "nest-humidity-monitor",
+  "version": "0.0.1",
+  "description": "Humidity monitor for Nest thermostat. Will trigger humidifier when humidity changes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "nest",
+    "humidity",
+    "thermostat",
+    "humidifier"
+  ],
+  "dependencies": {
+    "google-nest-api": "*",
+    "request" : "*"
+  },
+  "start":"main.js",
+  "author": "Henri Machalani",
+  "license": "MIT"
+}
